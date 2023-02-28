@@ -1,0 +1,259 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/venkata.teku/Desktop/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chromium",
+        "testDir": "C:/Users/venkata.teku/Desktop/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "dropDown.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/venkata.teku/Desktop/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "firefox",
+        "testDir": "C:/Users/venkata.teku/Desktop/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "dropDown.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/venkata.teku/Desktop/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "webkit",
+        "testDir": "C:/Users/venkata.teku/Desktop/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "dropDown.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "C:\\Users\\venkata.teku\\Desktop\\playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/venkata.teku/Desktop/playwright/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.31.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "dropDown.spec.ts",
+      "file": "dropDown.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "dropDown Testing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 21310,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "dropDown clicked\n"
+                    },
+                    {
+                      "text": "Day selected :- Monday\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-02-28T16:40:55.367Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-dropDown-Testing-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-dropDown-Testing-chromium\\trace.zip"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-dropDown-Testing-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d861c661c059920dc892-bf6bc6349f9150d90ba9",
+          "file": "dropDown.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "for multi Selection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 16648,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-02-28T16:40:55.398Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-for-multi-Selection-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-for-multi-Selection-chromium\\trace.zip"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-for-multi-Selection-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d861c661c059920dc892-d92195e39ea8fa597edc",
+          "file": "dropDown.spec.ts",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "dropDown jQuery",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 7913,
+                  "error": {
+                    "message": "page.selectOption: Error: Element is not a <select> element\n=========================== logs ===========================\nwaiting for locator('xpath=(//span[@class=\\'select2-selection select2-selection--single\\'])[1]')\n  locator resolved to <span tabindex=\"0\" role=\"combobox\" aria-haspopup=\"true…>…</span>\n  selecting specified option(s)\n  Element is not a <select> element\n============================================================",
+                    "stack": "page.selectOption: Error: Element is not a <select> element\n=========================== logs ===========================\nwaiting for locator('xpath=(//span[@class=\\'select2-selection select2-selection--single\\'])[1]')\n  locator resolved to <span tabindex=\"0\" role=\"combobox\" aria-haspopup=\"true…>…</span>\n  selecting specified option(s)\n  Element is not a <select> element\n============================================================\n    at C:\\Users\\venkata.teku\\Desktop\\playwright\\tests\\dropDown.spec.ts:39:17"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\venkata.teku\\Desktop\\playwright\\tests\\dropDown.spec.ts",
+                        "column": 17,
+                        "line": 39
+                      },
+                      "message": "page.selectOption: Error: Element is not a <select> element\n=========================== logs ===========================\nwaiting for locator('xpath=(//span[@class=\\'select2-selection select2-selection--single\\'])[1]')\n  locator resolved to <span tabindex=\"0\" role=\"combobox\" aria-haspopup=\"true…>…</span>\n  selecting specified option(s)\n  Element is not a <select> element\n============================================================\n\n\u001b[90m   at \u001b[39mdropDown.spec.ts:39\n\n\u001b[0m \u001b[90m 37 |\u001b[39m test(\u001b[32m\"dropDown jQuery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 |\u001b[39m     \u001b[36mawait\u001b[39m page \u001b[33m.\u001b[39mselectOption(\u001b[32m\"(//span[@class='select2-selection select2-selection--single'])[1]\"\u001b[39m\u001b[33m,\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m         index\u001b[33m:\u001b[39m\u001b[35m2\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m3000\u001b[39m)\u001b[0m\n\n\u001b[2m    at C:\\Users\\venkata.teku\\Desktop\\playwright\\tests\\dropDown.spec.ts:39:17\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-02-28T16:41:15.543Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-dropDown-jQuery-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-dropDown-jQuery-chromium\\trace.zip"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\playwright\\test-results\\dropDown-dropDown-jQuery-chromium\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\venkata.teku\\Desktop\\playwright\\tests\\dropDown.spec.ts",
+                    "column": 17,
+                    "line": 39
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d861c661c059920dc892-9f019762e7f0ea343aab",
+          "file": "dropDown.spec.ts",
+          "line": 37,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

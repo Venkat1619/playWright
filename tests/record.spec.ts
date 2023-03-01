@@ -4,7 +4,7 @@ test('test', async ({ page }) => {
   await page.goto('https://ecommerce-playground.lambdatest.io/');
   console.log("URL clicked")
   await page.hover("(//li[contains(@class,'nav-item dropdown')])[3]");
-  // await page.hover("//span[text()[normalize-space()='My account']]");
+  await page.hover("//span[text()[normalize-space()='My account']]");
   console.log("hovered");
   
   await page.getByRole('link', { name: 'Login' }).click();

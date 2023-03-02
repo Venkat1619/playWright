@@ -1,14 +1,25 @@
 import { Page } from "@playwright/test"
 
-export class Login {
-    constructor(public loginPage: Page) { }
+export class loginPage {
+    constructor(public page: Page) { }
+
+    async login(email,password){
+        await this.enteremail(email);
+        await this.enterpassword(password);
+        await this.enterButton()
+
+    }
     async enteremail(email: string) {
-        await this.loginPage.locator("#input[name='email']").type(email)
+        await this.page.locator("#input-email").type(email)
     }
     async enterpassword(password: string) {
-        await this.loginPage.locator("#input[name='password']").type(password)
+        await this.page.locator("#input-password").type(password)
     }
     async enterButton() {
-        await this.loginPage.click("input[type='submit']");
+        await Promise.all([
+             this.page.waitForNavigation(),
+             this.page.click("input[type='submit']")
+
+        ])
     }
 }

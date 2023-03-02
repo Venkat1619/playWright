@@ -1,6 +1,5 @@
 import { Page } from "@playwright/test"
 
-// const {Page} = require("@playwright/test")
 export class registerpage {
 
     constructor(public page: Page) { }
